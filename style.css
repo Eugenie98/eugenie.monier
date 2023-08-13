@@ -109,12 +109,17 @@ p{
   
   /* Header */
   header{
-    margin : 24px 200px 0px 200px;
+    margin : auto;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px #0A3622 solid;
     border-radius: 40px;
+    width: 755px;
+  }
+
+  #myHeader{
+    margin-top: 20px;
   }
 
   .imgStickerHeader{
