@@ -198,7 +198,7 @@ li a:hover{
 .imgStickerWrapper .imgSticker{
   position:absolute;
   right:5%;
-  top:-10%;
+  top:-80px;
   width: 180px;
 }
 
