@@ -30,49 +30,49 @@ h1{
 
 h2{
   font-family: 'Poppins', sans-serif;
-  font-size: 38px;
+  font-size: 51px;
   font-weight: bold;
   color: #0A3622;
 }
 
 .h2rose{
   font-family: 'Poppins', sans-serif;
-  font-size: 38px;
+  font-size: 51px;
   font-weight: bold;
   color: #F6E2E0;
 }
 
 h3{
   font-family: 'Poppins', sans-serif;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 600;
   color: #0A3622 ;
 }
 
 .h3blanc{
   font-family: 'Poppins', sans-serif;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 600;
   color: white ;
 }
   
 h4{
   font-family: 'Poppins', sans-serif;
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 600;
   color: #0A3622;
 }
 
 .h4rose{
   font-family: 'Poppins', sans-serif;
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 600;
   color:#F6E2E0;
 }
 
 .h4blanc{
   font-family: 'Poppins', sans-serif;
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 600;
   color:white;
 }
@@ -86,23 +86,24 @@ h5{
 }
 
 p{
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Poppins', sans-serif;
   line-height: 29px;
   color: #102318;
   font-weight: 400;
-  width: 738px;
+  width: 46.125rem;
+  line-height: 2.1rem;
 
 }
 
 .pBlanc{
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Poppins', sans-serif;
   line-height: 29px;
   color: white;
   font-weight: 400;
-  width: 738px;
-
+  width: 46.125rem;
+  line-height: 2.1rem;
 }
   
   /* ---------- Design de la page ---------- */
@@ -208,7 +209,7 @@ li a:hover{
   padding: 100px 0px;
   align-items: center;
   justify-content:center;
-  gap: 40px;
+  gap: 5rem;
   background-color: #0A3622;
 }
 
@@ -221,7 +222,7 @@ li a:hover{
   padding: 100px 0px;
   align-items: center;
   justify-content:center;
-  gap: 40px;
+  gap: 5rem;
 }
 #triangleWrap {
   overflow: hidden !important;
@@ -232,7 +233,7 @@ li a:hover{
   width: 100vh;
   height: 0;
   border-bottom: 100px solid #F6E2E0;
-  border-left: 2000px solid transparent;
+  border-left: 2600px solid transparent;
   
 }
 
@@ -254,7 +255,7 @@ li a:hover{
 .blocTexte{
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
  
 
@@ -320,19 +321,40 @@ text-decoration: underline;
 
 /* Section 2 */
 
+#sectionImgTexte2{
+  width: 100%;
+  display: flex;
+  padding: 0px 0px 100px 0px;
+  align-items: center;
+  justify-content:center;
+  gap: 5rem;
+  background-color: #0A3622;
+}
+
+.blocCitation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
 #section2{
   background-color: #0A3622;
   padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #chiffresClés{
-  width: 100%;
+  width: 80rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  padding: 100px 0px;
+  padding: 80px 0px;
   background-color: #FCFAF9;
+  border-radius: 2rem;
 }
 
 .chiffres{
@@ -342,8 +364,8 @@ text-decoration: underline;
 
 .carte{
   margin: 24px;
-  width: 160px;
-  padding: 16px 32px 16px 32px;
+  width: 250px;
+  padding: 48px 32px 48px 32px;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -374,6 +396,13 @@ text-decoration: underline;
 }
 
 .paragraphe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.imageEtTexte{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -415,6 +444,23 @@ text-decoration: underline;
 
 #sectionContexte{
   padding: 0px 0px 100px 0px;
+}
+
+#sectionMissions{
+  padding: 0px 0px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.img_grande{
+  width: 1000px;
+}
+
+/* --------- PAGE 4 --------- */
+
+#sectionBilan{
+  padding: 100px 0px 100px 0px;
 }
   
 /* Footer */
