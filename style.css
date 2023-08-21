@@ -196,11 +196,39 @@ li a:hover{
   position:absolute;
 }
 
+.imgStickerWrapper .imgStickerHello{
+  position:absolute;
+  left:10%;
+  top:-8rem;
+  width: 12rem;
+}
+
 .imgStickerWrapper .imgSticker{
   position:absolute;
-  right:5%;
-  top:-13%;
-  width: 12%;
+  right:10%;
+  top:-6rem;
+  width: 12rem;
+}
+
+.imgStickerWrapper .imgStickerEtoile{
+  position:absolute;
+  right:15%;
+  top:-5%;
+  width: 8rem;
+}
+
+.imgStickerWrapper .imgStickerEtiquette{
+  position:absolute;
+  right:10%;
+  top: 14rem;
+  width: 13rem;
+}
+
+.imgStickerWrapper .imgStickerEtoile2{
+  position:absolute;
+  left:18%;
+  top:11rem;
+  width: 7rem;
 }
 
 #sectionImgTexte{
