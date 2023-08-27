@@ -85,6 +85,14 @@ h5{
   text-transform: uppercase;
 }
 
+h6{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0A3622;
+  font-style: italic;
+}
+
 p{
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
@@ -203,10 +211,38 @@ li a:hover{
   width: 12rem;
 }
 
+.imgStickerWrapper .imgStickerYes{
+  position:absolute;
+  left:10%;
+  top:-8rem;
+  width: 12rem;
+}
+
+.imgStickerWrapper .imgStickerInternet{
+  position:absolute;
+  left:10%;
+  top:176rem;
+  width: 10rem;
+}
+
+.imgStickerWrapper .imgStickerPouce{
+  position:absolute;
+  left:10%;
+  top:40rem;
+  width: 10rem;
+}
+
+.imgStickerWrapper .imgStickerPointeur{
+  position:absolute;
+  left:10%;
+  top:4rem;
+  width: 13rem;
+}
+
 .imgStickerWrapper .imgSticker{
   position:absolute;
   right:10%;
-  top:-6rem;
+  top:47rem;
   width: 12rem;
 }
 
@@ -217,11 +253,32 @@ li a:hover{
   width: 8rem;
 }
 
+.imgStickerWrapper .imgStickerEtoileMissions{
+  position:absolute;
+  right:15%;
+  top:-4rem;
+  width: 8rem;
+}
+
 .imgStickerWrapper .imgStickerEtiquette{
   position:absolute;
   right:10%;
   top: 14rem;
   width: 13rem;
+}
+
+.imgStickerWrapper .imgStickerOrdi{
+  position:absolute;
+  right:8%;
+  top: -3rem;
+  width: 13rem;
+}
+
+.imgStickerWrapper .imgStickerV{
+  position:absolute;
+  right:10%;
+  top: 365rem;
+  width: 8rem;
 }
 
 .imgStickerWrapper .imgStickerEtoile2{
@@ -486,6 +543,13 @@ text-decoration: underline;
 
 .img_grande{
   width: 1000px;
+}
+
+.img_legend{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 /* --------- PAGE 4 --------- */
